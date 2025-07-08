@@ -1,0 +1,36 @@
+# NODE MODULES
+node_modules
+
+# ENV FILE
+.env
+
+
+
+
+---
+
+### ✅ 2. Recommended `.gitignore` for Your Backend Project
+
+```gitignore
+# Node dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Build outputs
+dist/
+build/
+*.log
+
+# OS / Editor related
+.DS_Store
+.vscode/
+*.swp
+*.swo
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage
+coverage/

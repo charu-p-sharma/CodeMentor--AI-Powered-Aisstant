@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2016",                                
+    "module": "nodenext",   
+    "moduleResolution": "nodenext",  
+    "sourceMap": true,                          
+    "outDir": "dist",    
+    "allowSyntheticDefaultImports": true,                             
+    "strict": true,        
+    // "esModuleInterop": true,          
+    // "forceConsistentCasingInFileNames": true,                                 
+    // "skipLibCheck": true                               
+  },
+  "include": ["src/**/*.ts", "src/index.ts"]
+}
