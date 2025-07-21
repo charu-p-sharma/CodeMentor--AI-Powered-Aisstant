@@ -1,0 +1,15 @@
+BACKEND 
+-------
+- https://platform.openai.com/api-keys
+- https://platform.openai.com/settings/organization/general     
+- https://platform.openai.com/docs/models
+
+
+FRONTEND 
+--------
+- npm create vite@latest
+- variant - TypeScript + SWC
+- npm install @mui/material @emotion/react @emotion/styled
+- npm install react-icons
+- npm i react-router-dom
+- npm i react-hot-toast
