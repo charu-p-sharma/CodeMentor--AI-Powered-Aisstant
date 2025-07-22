@@ -3,9 +3,7 @@ import { Box, Avatar, Typography } from "@mui/material";
 import { useAuth } from "../../context/AuthContext";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { coldarkDark } from "react-syntax-highlighter/dist/esm/styles/prism";
-import OpenAILogo from "../../assets/images/openai.png";
 
-// Function to extract the code block from the message payload string
 function extractCodeFromString(message: string) {
   if (message.includes("```")) {
     const blocks = message.split("```");
@@ -13,7 +11,6 @@ function extractCodeFromString(message: string) {
   }
 }
 
-// Function to verify if the message contains a code block or not
 function isCodeBlock(str: string) {
   if (
     str.includes("=") ||
@@ -29,7 +26,6 @@ function isCodeBlock(str: string) {
   }
   return false;
 }
-
 const ChatItem = ({
   content,
   role,
@@ -51,7 +47,7 @@ const ChatItem = ({
       }}
     >
       <Avatar sx={{ ml: "0" }}>
-        <img src={OpenAILogo} alt="openai" width={"30px"} />
+        <img src="openai.png" alt="openai" width={"30px"} />
       </Avatar>
       <Box>
         {!messageBlocks && (
@@ -81,8 +77,8 @@ const ChatItem = ({
       }}
     >
       <Avatar sx={{ ml: "0", bgcolor: "black", color: "white" }}>
-        {auth?.user?.name[0]}
-        {auth?.user?.name.split(" ")[1][0]}
+         {auth?.user?.name?.split(" ")[0]?.[0]}
+         {auth?.user?.name?.split(" ")[1]?.[0] ?? ""}
       </Avatar>
       <Box>
         {!messageBlocks && (

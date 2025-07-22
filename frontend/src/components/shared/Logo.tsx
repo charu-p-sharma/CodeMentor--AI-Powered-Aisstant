@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom";
 import Typography from "@mui/material/Typography";
-import OpenAILogo  from "../../assets/images/openai.png";
-
 const Logo = () => {
   return (
     <div
@@ -14,7 +12,7 @@ const Logo = () => {
     >
       <Link to={"/"}>
         <img
-          src={OpenAILogo}
+          src="openai.png"
           alt="openai"
           width={"30px"}
           height={"30px"}
