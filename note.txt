@@ -1,11 +1,21 @@
-BACKEND 
+BACKEND (with TypeScript)
 -------
 - https://platform.openai.com/api-keys
 - https://platform.openai.com/settings/organization/general     
 - https://platform.openai.com/docs/models
+- npm i cors (helps to communicate 2 different servers and share data among them, 
+              here backend at 5000 port will be able to communicate with frontend at 5173 port)
+
+- https://platform.openai.com/docs/models
+- https://platform.openai.com/docs/api-reference/introduction
+
+- Payment for openai
+- https://platform.openai.com/usage
+- https://platform.openai.com/settings/organization/billing/overview
+- https://platform.openai.com/settings/organization/limits
 
 
-FRONTEND 
+FRONTEND (with TypeScript)
 --------
 - npm create vite@latest
 - variant - TypeScript + SWC
@@ -13,3 +23,33 @@ FRONTEND
 - npm install react-icons
 - npm i react-router-dom
 - npm i react-hot-toast
+- npm i axios (used for communication between frontend and backend api )
+- npm i react-syntax-highlighter (to show code snippet)
+- npm i react-type-animation (for typing text animation)
+
+- useLayoutEffect runs before it is rendered on the UI.
+
+// TODO
+- how to identify the language js or others from the 
+message of code block
+ Hint - see the response of the code snippet starting word 
+ is the name of the language in the chat's response, 
+ so use this to find the language and mention it rather 
+ than statically mentioning in the frontend code.
+
+
+----------------
+| PROJECT TODO |
+----------------
+
+- git hub push code separately backend and frontend use the vscode gui
+- compare with the final branch overall from ur application
+- solve the errors in ur code 
+- inform pramu before using his api 
+- test the complete feature once 
+- make a note of what can be done in this project like the features documentation
+- check the codes add logs , readme files basically a code review 
+- 
+
+
+
