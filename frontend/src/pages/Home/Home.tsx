@@ -1,11 +1,10 @@
 import { Box, useMediaQuery, useTheme } from "@mui/material";
 import React from "react";
-import TypingAnim from "../../components/typer/TypingAnim";
-// import Footer from "../components/footer/Footer";
 import OpenAILogo from "../../assets/images/openai.png";
 import ChatLogo from "../../assets/images/chat.png";
 import RobotLogo from "../../assets/images/robot.png";
 import Footer from "../../components/Footer/Footer";
+import TypingAnim from "../../components/Typer/TypingAnim";
 
 const Home = () => {
   const theme = useTheme();

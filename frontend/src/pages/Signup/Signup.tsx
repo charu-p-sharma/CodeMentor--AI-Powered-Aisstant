@@ -4,7 +4,7 @@ import { Box, Typography, Button } from "@mui/material";
 import { toast } from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../../context/AuthContext";
-import CustomizedInput from "../../components/shared/CustomizedInput";
+import CustomizedInput from "../../components/Shared/CustomizedInput";
 
 
 const Signup = () => {
