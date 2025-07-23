@@ -8,7 +8,7 @@ import cookieParser from "cookie-parser";
 import cors from "cors";
 
 // Middlewares
-app.use(cors());
+app.use(cors({origin : "https://codementor-ai2.vercel.app", credentials:true}));
 app.use(express.json());
 app.use(cookieParser(process.env.COOKIE_SECRET));
 
