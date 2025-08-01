@@ -2,7 +2,9 @@ import { connect, disconnect } from "mongoose";
 import { config } from "dotenv";
 
 async function connectToDatabase() {
-  const MONGODB_URL = process.env.MONGODB_URL;
+  // const MONGODB_URL = process.env.MONGODB_URL;
+  const MONGODB_URL =
+    "mongodb+srv://charupsharma5:opjToxhR3g6uzpG3@codementor-cluster.jn1pugc.mongodb.net/chatbot?retryWrites=true&w=majority&appName=codementor-cluster";
   if (!MONGODB_URL) {
     throw new Error("❌ MONGODB_URL is not defined in .env file");
   }

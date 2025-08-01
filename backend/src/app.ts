@@ -8,9 +8,12 @@ import cookieParser from "cookie-parser";
 import cors from "cors";
 
 // Middlewares
-app.use(cors({origin : "https://codementor-ai2.vercel.app", credentials:true}));
+app.use(
+  cors({ origin: "https://codementor-ai2.vercel.app", credentials: true })
+);
 app.use(express.json());
-app.use(cookieParser(process.env.COOKIE_SECRET));
+// app.use(cookieParser(process.env.COOKIE_SECRET));
+app.use(cookieParser("bkbaonod343049onxkadkd"));
 
 // TODO : remove it in production
 // app.use(morgan("dev"));

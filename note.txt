@@ -43,3 +43,11 @@ DOCKER
 -------
 - docker-compose up --build (to build docker compose file)
 - docker-compose up -d 
+
+
+
+
+PUTTY CREDENTIALS 
+------------------
+Public Key -
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDBOh/pVJ5a0MAnGQDO0h8s1RRNvya76gJE6xL8siBIzgEimielsTw9EueFq04mIl+ReVntL30D1v9vGBc4b3WtOpLebv7C6bIalFQbV4lpFLJ1o/jqcChKJK7ewwkdP3lgeWN9Kv+FxKKSPbzp15Q98ptEr9gc5ak0N33hzTOAMhmcfk44tKPe1L2KAhKpGSYrwYEoJkbh5HKGoeY7ZWR4hfMthCElqUO4zoZNNU0iK2lMkno4RaVnincU3Fbqas7ggnhdkAlpWuk2xp6ssALTNwknzXJR
