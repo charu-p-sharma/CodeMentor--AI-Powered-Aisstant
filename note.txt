@@ -38,18 +38,8 @@ message of code block
  than statically mentioning in the frontend code.
 
 
-----------------
-| PROJECT TODO |
-----------------
 
-- git hub push code separately backend and frontend use the vscode gui
-- compare with the final branch overall from ur application
-- solve the errors in ur code 
-- inform pramu before using his api 
-- test the complete feature once 
-- make a note of what can be done in this project like the features documentation
-- check the codes add logs , readme files basically a code review 
-- 
-
-
-
+DOCKER 
+-------
+- docker-compose up --build (to build docker compose file)
+- docker-compose up -d 
